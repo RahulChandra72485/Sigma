@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+div{
+    width: 190px;
+    height: 150px;
+    background-color: lightblue;
+    border: 2px solid black;
+    margin: 5vh 5vw;
+    display: inline-block;
+}
+
+#static{
+    background-color: yellowgreen;
+    position: static;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    
+}
+
+#relative{
+    background-color: rgb(6, 47, 232);
+    position: relative;
+    top: 70px;
+    left: 70px;
+}
+
+#Absolute{
+    background-color: rgb(204, 80, 246);
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+
+#fixed{
+    background-color: rgb(80, 246, 116);
+    position: fixed;
+    top: 70px;
+    left: 70px;
+
+} 

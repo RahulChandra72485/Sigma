@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+}
+
+.set{
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px dotted black;
+    margin: 20px 1em 40px 2em;
+    padding: 1em;
+}
+
+.hello{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+
+#lists li{
+    display: inline;
+    color: white;
+    background-color: rgb(136, 22, 136);
+    border: 1px solid rgb(95, 42, 51);
+    border-radius: 20% 40% 10% 40%;
+    margin: 0 2vw 0 0 ;
+    padding: 5px;
+}
+
+
+

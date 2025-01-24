@@ -1,0 +1,52 @@
+*{
+    margin: 1vh 1vw;
+}
+
+p + h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color:blue ;
+    color: brown;
+}
+
+div > input {
+    background-color: darksalmon;
+}
+
+input[type="text"]{
+    color: green;
+}
+
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+p:active{
+    font-weight: bold;
+    color: purple;
+}
+
+input[type="radio"]:checked + label{
+    color: tomato;
+    font-weight: bold;
+}
+
+div:nth-of-type(2){
+    background-color: bisque;
+}
+
+h1::first-letter{
+    color: pink;
+}
+
+h3::first-line{
+    color: rgb(58, 34, 34);
+}
+
+h3::selection{
+    background-color: rgb(193, 193, 128);
+}

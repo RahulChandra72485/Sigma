@@ -1,0 +1,1 @@
+typeof operator tell about the variables 

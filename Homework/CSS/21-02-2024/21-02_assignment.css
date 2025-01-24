@@ -1,0 +1,37 @@
+*{
+    margin: 5vh;
+    font-family: Georgia;
+}
+
+.bgbody{
+    background-color: wheat;
+}
+
+.bgbody h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.bgbody h3{
+    text-align: center;
+}
+
+
+.bgbody p{
+    color: #964B00;
+    line-height: 30px ;
+}
+
+.bgbody h4 a{
+    text-decoration: none;
+    color: green;
+}
+
+.bgbody button{
+    background-color: #fff;
+    color: blueviolet;
+}
+
+.bgbody textarea{
+    color: black;
+}

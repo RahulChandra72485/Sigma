@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+
+.bgimg{
+    height: 50vh;
+    width: 40vw;
+    border: 2px solid black;
+    background-image: url(wk2.jpg);
+    background-size: auto;    /* it zoom in and blur the image */
+
+     background-size: contain;   /* it repeat the images to fit inside of the element */
+
+    background-size: cover;     /* it crop the image  */
+}

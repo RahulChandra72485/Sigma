@@ -1,0 +1,85 @@
+*{
+    margin: 10vh 10vw;
+}
+
+/* all the content inside the div get effected by the transform property */
+
+.Rotate{
+height: 8vh;
+width: 20vw;
+border: 2px solid black;
+background-color: antiquewhite;
+}
+
+.Rotate:hover{
+    transform: rotate(-45deg);    /* we can use it anywhere   */
+}
+
+.scale{
+    height: 8vh;
+    width: 20vw;
+    border: 2px solid black;
+    background-color: rgb(228, 167, 87);
+    transform: scale(0.9);
+    transition: 1s ease-in-out;
+}
+
+.scale:hover{
+    transform: scale(1.2);
+    /* transform: scaleX(1.2);
+    transform: scaleY(1.3);
+    transform: scale(1.2 1.3); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.323), 0 6px 20px 0 rgba(0, 0, 0, 0.296);
+}
+
+.translate{
+    height: 8vh;
+    width: 20vw;
+    border: 2px solid black;
+    background-color: rgb(139, 228, 87);
+    
+}
+
+.translate:hover{
+    transform: translate(100px, 100px);
+    /* transform: translate(100px, 100px); */
+}
+
+.skew{
+    height: 8vh;
+    width: 20vw;
+    border: 2px solid black;
+    background-color: rgb(73, 222, 245);
+    transition: 1s ease-in-out;
+}
+
+.skew:hover{
+    height: 8vh;
+    width: 20vw;
+    border: 2px solid black;
+    background-color: rgb(73, 222, 245);
+    transform: skew(-45deg);
+}
+
+.boxshadow{
+    height: 8vh;
+    width: 20vw;
+    border: 2px solid black;
+    background-color: rgb(171, 73, 245);
+    transition: 1s ease-in-out;
+
+}
+
+.boxshadow:hover{
+    box-shadow: 2px 2px 15px black;
+}
+
+.bgimg{
+    height: 50vh;
+    width: 40vw;
+    border: 2px solid black;
+    background-image: url();
+
+}
+
+

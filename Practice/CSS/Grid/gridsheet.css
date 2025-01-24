@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+
+.parent{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows:150px 150px 150px ;
+    grid-template-columns: auto auto auto;
+    row-gap: 25px;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.child{
+    background-color: rgb(109, 197, 241);
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    
+}
+
+#hello{
+    justify-self: start;
+    align-self: end;
+}
+
+/* .child:nth-of-type(4) {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+} */
+
+/* .child:nth-of-type(5){
+    grid-column: 2/4;
+    grid-column: 2/ span 4; 
+} */
