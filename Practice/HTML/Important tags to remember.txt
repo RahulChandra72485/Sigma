@@ -1,0 +1,8 @@
+<legend></legend>  = it is used to give a caption to any topic or anyother things like radiobox and checkbox
+
+<fieldset></fieldset> = it create a field box and seperate the inside content 
+
+
+
+
+

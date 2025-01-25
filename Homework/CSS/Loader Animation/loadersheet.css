@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.loader{
+    border:16px solid #f3f3f3;
+    border-top:16px solid goldenrod;
+    border-radius:50%;
+    width:120px;
+    height:120px;
+    animation:spin 2s linear infinite;
+}
+
+@keyframes spin{
+
+    0%{
+        transform: rotate(0deg);
+    }
+
+    /* 10%{
+        transform: rotate(60deg);
+    }
+
+    20%{
+        transform: rotate(100deg);
+    }
+
+    30%{
+        transform: rotate(140deg);
+    }
+
+    40%{
+        transform: rotate(160deg);
+    }   
+
+    50%{
+        transform: rotate(190deg);
+    }
+
+    60%{
+        transform: rotate(220deg);
+    }
+
+    70%{
+        transform: rotate(250deg);
+    }
+
+    80%{
+        transform: rotate(280deg);
+    }
+
+    90%{
+        transform: rotate(320deg);
+    } */
+
+    100%{
+        transform: rotate(360deg);
+    }
+
+
+
+}
